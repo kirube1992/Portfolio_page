@@ -194,8 +194,6 @@ async function handleSubmit() {
     }
   } finally {
     isSubmitting.value = false
-
-    // Clear status after 5 seconds
     setTimeout(() => {
       submitStatus.value = null
     }, 5000)
