@@ -153,6 +153,10 @@ import ContactForm from '@/components/ContactForm.vue'
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .page-title {
     font-size: 2.5rem;
   }
