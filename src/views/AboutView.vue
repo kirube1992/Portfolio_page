@@ -382,6 +382,10 @@ const toolsSkills = ref(['Git', 'Docker', 'AWS', 'Linux', 'Burp Suite', 'Jest', 
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .page-title {
     font-size: 2.5rem;
   }
@@ -392,7 +396,7 @@ const toolsSkills = ref(['Git', 'Docker', 'AWS', 'Linux', 'Burp Suite', 'Jest', 
   }
 
   .skills-section {
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
   }
 
   .skills-grid {
