@@ -2,10 +2,10 @@ const TELECONNECT_CONFIG = {
   baseUrl: 'https://scwgateway.manamin.ethiotelecom.et',
   path: '/api-im/todo/sendSystemMessage',
   secretKey: '?dM"mXh"f3noow}I',   // matches backend
-  appCode: 'Test',                   // ← changed from 'Task' to 'Test'
+  appCode: 'test',                   // ← changed from 'Task' to 'Test'
   mySecretCode: '932368261',
   mySecretType: 2,
-  gotoUrl: 'https://portfolio-page-roan-gamma.vercel.app/',  // ← your actual URL
+  gotoUrl: 'https://portfolio-page-roan-gamma.vercel.app/',  
 }
 
 export interface ContactPayload {
