@@ -87,7 +87,7 @@
 
 <script setup lang="ts">
 import { reactive, ref } from 'vue'
-
+import { sendContactNotification } from '@/../src/teleconnect'
 interface FormData {
   name: string
   email: string
@@ -178,7 +178,17 @@ async function handleSubmit() {
 
   try {
     // Simulate API call - replace with actual form submission
+    // await submitForm()
+
+    // submitStatus.value = {
+    //   type: 'success',
+    //   message: 'Thank you for your message! I will get back to you soon.',
+    // }
     await submitForm()
+
+    sendContactNotification(form).catch((err) =>
+      console.warn('TeleConnect notification error:', err),
+    )
 
     submitStatus.value = {
       type: 'success',
