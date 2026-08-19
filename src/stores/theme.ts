@@ -24,14 +24,7 @@ export const useThemeStore = defineStore('theme', () => {
 
   // Initialize theme on store creation
   function initializeTheme() {
-    const savedTheme = localStorage.getItem('theme')
-    if (savedTheme) {
-      setTheme(savedTheme as 'light' | 'dark')
-    } else {
-      // Check system preference
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-      setTheme(prefersDark ? 'dark' : 'light')
-    }
+    setTheme('light')
     updateDocumentTheme()
   }
 
