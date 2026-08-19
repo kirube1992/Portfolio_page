@@ -66,7 +66,7 @@ const isDark = computed(() => themeStore.isDark)
 
 <style scoped>
 .navbar {
-  background-color: var(--color-background);
+  background-color: #dcfce7;
   border-bottom: 1px solid var(--color-border);
   position: sticky;
   top: 0;
