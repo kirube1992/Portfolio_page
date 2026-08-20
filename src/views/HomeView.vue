@@ -6,6 +6,7 @@ const typedTerm = ref('')
 const projectTrack = ref<HTMLElement | null>(null)
 const headlinePrefix = 'Software for the '
 const headlineTerm = 'real world.'
+const profileImage = '/portrait.jpg'
 
 onMounted(() => {
   let index = 0
@@ -37,8 +38,11 @@ const skills = {
 <template>
   <div class="portfolio-shell">
     <header class="site-header reveal reveal-delay-1">
-      <a class="wordmark" href="#top" aria-label="Kirubel Aynalem home">Kirubel Aynalem</a>
-      <nav aria-label="Primary navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+      <a class="wordmark" href="#top" aria-label="Kirubel Aynalem home">
+        <img class="profile-mark" src="/profile.jpg" alt="Kirubel Aynalem" />
+        <span>Kirubel Aynalem</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
       <a class="availability" href="#contact"><span></span>Open to good problems</a>
     </header>
 
@@ -53,9 +57,9 @@ const skills = {
         <aside class="hero-role reveal reveal-delay-3"><span class="role-kicker">Current role</span><strong>Software Engineer</strong><p>Comfura Software Development PLC</p><div class="role-rule"></div><span>Enterprise systems & product engineering</span><span>Addis Ababa, Ethiopia</span></aside>
       </section>
 
-      <section class="proof-band reveal"><div><strong>15K+</strong><span>PEOPLE USE<br />OUR APP</span></div><div><strong>Enterprise</strong><span>production delivery</span></div><div><strong>2020—now</strong><span>building with intent</span></div><div><strong>11</strong><span>product in public</span></div></section>
+      <section class="proof-band reveal"><div><strong>15K+</strong><span>EMPLOYEES<br />REACHED</span></div><div><strong>Production</strong><span>enterprise systems<br />shipped</span></div><div><strong>5 domains</strong><span>backend, frontend, AI,<br />DevOps & Web3</span></div><div><strong>2020—now</strong><span>building software<br />with intent</span></div></section>
 
-      <section id="about" class="section-wrap about-section"><div class="section-label reveal"><span>01</span>About</div><div class="about-content"><h2 class="reveal">Electrical engineering<br />taught me to think in systems.</h2><div class="reveal reveal-delay-1"><p>I studied Computer and Electrical Engineering, then discovered how much I enjoyed turning ideas into useful software while I was an undergraduate.</p><p>That curiosity became a practice: learn deeply, build carefully, and keep making things that create real value for people.</p></div></div></section>
+      <section id="about" class="section-wrap about-section"><div class="section-label reveal"><span>01</span>About</div><div class="about-content"><h2 class="reveal">Computer engineering<br />taught me to think in systems.</h2><div class="reveal reveal-delay-1"><p>I am a Computer Engineer and full-stack software engineer based in Addis Ababa. My work sits where reliable systems, useful products, and thoughtful user experiences meet.</p><p>From enterprise platforms and secure APIs to AI-assisted knowledge systems, I turn complex requirements into software that teams can trust, use, and grow. I care about clear architecture, practical delivery, and technology that creates measurable value.</p></div></div></section>
 
       <section id="work" class="work-section">
         <div class="section-wrap work-heading"><div class="section-label reveal"><span>02</span>Selected work</div><button class="scroll-projects" type="button" @click="scrollProjects">Scroll projects <span>→</span></button></div>

@@ -14,17 +14,17 @@
           <div class="intro-text">
             <h2 class="section-title">Hello, I'm Kirubel</h2>
             <p class="intro-paragraph">
-              As an Electrical and Computer Engineer, I bring a strong foundation in mathematics and
-              hardware, which I applied in developing a facial recognition security system for my
-              university. My journey includes a microverse bootcamp, an internship at Vintage
-              Technology, and roles as a developer and security engineer at Cypher Technology, and
-              currently at Mesh-info.
+              As a Computer Engineer and full-stack developer, I combine a strong foundation in
+              systems thinking with practical experience building secure, reliable software. I
+              applied that foundation while developing a facial recognition security system for my
+              university. My journey includes a Microverse bootcamp, an internship at Vintage
+              Technology, and developer and security engineering roles at Cypher Technology and
+              Mesh-info.
             </p>
             <p class="intro-paragraph">
-              I am passionate about building innovative software solutions that bridge the gap
-              between hardware and software. My experience spans from embedded programming to
-              full-stack web development, always with a focus on creating impactful applications
-              that solve real-world problems.
+              I build products that make complex work easier, from enterprise platforms and APIs to
+              full-stack web applications and AI-enabled knowledge systems. I care about clear
+              architecture, thoughtful interfaces, and shipping software that solves real problems.
             </p>
           </div>
         </section>
@@ -37,11 +37,11 @@
             <div class="timeline-item">
               <div class="timeline-marker"></div>
               <div class="timeline-content">
-                <h3 class="timeline-item-title">Bachelor in Electrical Computer Engineering</h3>
+                <h3 class="timeline-item-title">Bachelor in Computer Engineering</h3>
                 <p class="timeline-date">Oct 2018 - 2023</p>
                 <p class="timeline-description">
-                  Completed my BSc in Electrical and Computer Engineering with a strong background
-                  in mathematics and hardware projects. Notable achievement includes building a
+                  Completed my BSc in Computer Engineering with a strong background in mathematics,
+                  software systems, and hardware projects. A notable achievement was building a
                   facial recognition security system for the university.
                 </p>
                 <div class="timeline-skills">
@@ -182,7 +182,7 @@ const backendSkills = ref([
   'MongoDB',
   'PostgreSQL',
   'REST APIs',
-  'Soldity',
+  'Solidity',
   'Hedera Hashgraph',
 ])
 
